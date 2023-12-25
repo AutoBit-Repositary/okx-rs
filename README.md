@@ -1,6 +1,8 @@
 # okx-rs
 Unofficial Rust Library for the OKX V5 API.
 
+Used in solana-arbitrage.
+
 ## Usage
 ```toml
 [dependencies]
