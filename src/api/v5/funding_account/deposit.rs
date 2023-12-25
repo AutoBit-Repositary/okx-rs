@@ -6,7 +6,7 @@ use chrono::{DateTime, Utc};
 use reqwest::Method;
 use serde::Serialize;
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, PartialEq, Eq)]
 pub enum DepositStatus {
     WaitingForConfirmation,
     DepositCredited,
